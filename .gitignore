@@ -1,0 +1,24 @@
+# Node
+node_modules/
+*.log
+
+# Env
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+
+# Dist / Build
+/dist
+/backend/dist
+/frontend/.next
+
+# IDE
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Yarn / NPM
+.yarn/*
+.pnp.*
