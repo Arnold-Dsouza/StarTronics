@@ -87,7 +87,7 @@ export default function Home() {
     },
   ];
 
-  
+
   useEffect(() => {
     async function loadStories() {
       if (USE_DUMMY_STORIES) {
@@ -123,7 +123,6 @@ export default function Home() {
   }
 
   function next() { scrollToIndex(activeIndex + 1); }
-  function prev() { scrollToIndex(activeIndex - 1); }
 
   // Auto-scroll every 6s, pause on hover or drag
   useEffect(() => {
